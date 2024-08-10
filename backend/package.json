@@ -1,0 +1,16 @@
+{
+  "name": "bookshelf-backend",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.js --network sepolia"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-waffle": "^2.0.0",
+    "chai": "^4.3.4",
+    "dotenv": "^16.4.5",
+    "ethereum-waffle": "^3.3.0",
+    "ethers": "^5.4.0",
+    "hardhat": "^2.6.4"
+  }
+}
